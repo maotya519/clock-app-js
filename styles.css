@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Comic Sans MS,sans-serif;
+    background: #757575;
+}
+footer {
+    background: #424242;
+    height: 64px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+}
+.clock-area {
+    display: none;
+}
+.stopwatch-area {
+
+}
+.footer_area {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer_area_tx{
+    margin: 0;
+    color: #ddd;
+    line-height: 74px;
+}
+.change_mode_area {
+    background: #EEEEEE;
+    width: 90%;
+    margin: 60px auto 0 auto;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+.change_mode {
+    width: 50%;
+    height: 40px;
+    line-height: 10px;
+}
+.change_mode_left {
+    border-right: 1px solid rgb(122, 122, 122);
+}
+.change_mode_right {
+    border-left: 1px solid rgb(122, 122, 122);
+}
+.degital-image {
+    color :#ddd;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 80px auto 0 auto;
+}
+.digital_container {
+    /* display: none; */
+}
+.analog_container {
+    display: none;
+}
+.digital_tx {
+    text-align: center;
+    color: #EEEEEE;
+}
+.digital_title {
+
+    margin: 80px 0 0 0;
+    font-size: 42px;
+}
+.digital_change_tx {
+    font-size: 24px;
+}
+.stopwatch-title {
+    font-size: 64px;
+    margin: 80px 0 0 0;
+}
+.stopwatch_btn_container {
+    width: 60%;
+    height: 46px;
+    text-align: center;
+    color: #757575;
+    background: #fff;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgb(85, 84, 84);
+}
+.stopwatch_btn_container:active {
+    position: relative;
+    top: 2px;
+}
+
+.stopwatch_btn_tx {
+    line-height: 46px;
+    font-size: 32px;
+
+}
+.start {
+    margin: 240px auto 0 auto;
+}
